@@ -115,8 +115,7 @@ frame = tk.Frame(main_frame, bg="blue")
 frame.pack(expand=True, fill="both")
 
 # Nút bắt đầu
-start_btn = tk.Button(frame, text="Bắt đầu", font=("Arial", 18, "bold"),
-                      bg="orange", fg="white", command=start_game)
+start_btn = tk.Button(frame, text="Bắt đầu", font=("Arial", 18, "bold"), bg="orange", fg="white", command=start_game)
 start_btn.pack(expand=True)
 
 root.mainloop()
