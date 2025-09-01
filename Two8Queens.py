@@ -123,13 +123,6 @@ def parse_pos(s):
 ctrl = ttk.Frame(main,padding = 4)
 ctrl.grid(row = 1, column= 0, columnspan=2, sticky="ew")
 
-
-def load_entry():
-    pass
-
-def random_preset():
-    pass
-
 def clear_boards():
     for r in range(N):
         for c in range(N):
@@ -182,3 +175,4 @@ btnStart = ttk.Button(ctrl, text="Solve", width=50, command=lambda :start_solve(
 btnStart.pack(expand=True, padx=6, pady=6)
 
 root.mainloop()
+
